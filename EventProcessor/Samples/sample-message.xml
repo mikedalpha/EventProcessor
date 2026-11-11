@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstrumentMessage xmlns="urn:eventprocessor:instrument-message:v1">
+    <Header>
+        <MessageId>3f6c2a9e-8b41-4d7a-9c05-6e2f1b7d4a10</MessageId>
+        <Sender>EXAMPLE-ISSUER</Sender>
+        <CreatedAt>2026-05-05T08:00:00Z</CreatedAt>
+    </Header>
+    <Events>
+        <Event>
+            <Code>ISSUED</Code>
+            <Comment/>
+        </Event>
+    </Events>
+    <Product>
+        <Name>8.00% p.a. Barrier Reverse Convertible on Example Corp, Sample Industries</Name>
+        <Type>ReverseConvertible</Type>
+        <Identifiers>
+            <Identifier scheme="ISIN">XX1234567890</Identifier>
+            <Identifier scheme="INTERNAL">PRD-000123</Identifier>
+        </Identifiers>
+        <Currency>CHF</Currency>
+        <Denomination>1000</Denomination>
+        <IssueDate>2026-05-12</IssueDate>
+        <MaturityDate>2027-05-12</MaturityDate>
+        <Coupon>
+            <RatePercent>8.00</RatePercent>
+            <Frequency>Quarterly</Frequency>
+        </Coupon>
+        <Barrier>
+            <LevelPercent>60.00</LevelPercent>
+            <Observation>Continuous</Observation>
+        </Barrier>
+        <Underlyings>
+            <Underlying>
+                <Name>Example Corp</Name>
+                <Identifiers>
+                    <Identifier scheme="ISIN">XX0000000011</Identifier>
+                </Identifiers>
+                <InitialLevel>42.50</InitialLevel>
+            </Underlying>
+            <Underlying>
+                <Name>Sample Industries</Name>
+                <Identifiers>
+                    <Identifier scheme="ISIN">XX0000000022</Identifier>
+                </Identifiers>
+                <InitialLevel>118.20</InitialLevel>
+            </Underlying>
+        </Underlyings>
+    </Product>
+</InstrumentMessage>

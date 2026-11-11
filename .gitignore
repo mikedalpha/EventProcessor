@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Local tooling config
+.claude/
+
+# Partner B writes here at runtime
+out/

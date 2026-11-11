@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EventProcessor/EventProcessor.csproj" />
+  <Project Path="EventProcessor.Tests/EventProcessor.Tests.csproj" />
+</Solution>
